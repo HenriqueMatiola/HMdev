@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    color: #fff;
+}
+
+.home {
+    width: 100%;
+    height: 1008px;
+    background-color: #000;
+}
+
+nav {
+    width: 100%;
+    height: 5%;
+    background-color: #151515;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    & ul {
+        font-family: "League Spartan", sans-serif;
+        font-size: 20px;
+
+        display: flex;
+        gap: 45px;
+
+        & a {
+            -webkit-text-stroke: 0.4px #0168A8;
+        }
+
+        & a:hover {
+            color: #0477BF;
+            border-bottom: #0477BF 2px solid;
+        }
+    }
+}
+
+.sectionTitle {
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "League Spartan", sans-serif;
+
+    & h1 {
+        font-weight: bold;
+        font-size: 4rem;
+    }
+
+    & p {
+        font-weight: lighter;
+        font-size: 2rem;
+        border: #0477BF 1px solid;
+        padding: 10px;
+    }
+
+    & span {
+        color: #0477BF;
+    }
+
+    & #logo {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+    }
+}
+
+.sectionImgs {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+    & img {
+        width: 35px;
+    }
+}
