@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +9,7 @@
 
 .home {
     width: 100%;
-    height: 1008px;
+    height: 100vh;
     background-color: #000;
 }
 

@@ -1,0 +1,15 @@
+.sobre {
+    width: 100%;
+        height: 100vh;
+        background-color: #000;
+}
+
+.sobreH3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+    & h3 {
+        border-bottom: 2px solid #fff;
+    }
+}
