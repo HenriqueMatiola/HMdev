@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #0168a8;
+    --second-color: #0477BF;
+    --roboto-font: "Roboto", sans-serif;
+    --league-font: "League Spartan", sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +13,7 @@
     list-style: none;
     color: #fff;
 }
+
 
 .home {
     width: 100%;
@@ -24,19 +32,19 @@ nav {
     z-index: 2;
 
     & ul {
-        font-family: "League Spartan", sans-serif;
+        font-family: var(--league-font);
         font-size: 20px;
 
         display: flex;
         gap: 45px;
 
         & a {
-            -webkit-text-stroke: 0.4px #0168A8;
+            -webkit-text-stroke: 0.4px var(--primary-color);
         }
 
         & a:hover {
-            color: #0477BF;
-            border-bottom: #0477BF 2px solid;
+            color: var(--second-color);
+            border-bottom: var(--second-color) 2px solid;
         }
     }
 }
@@ -49,7 +57,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    font-family: "League Spartan", sans-serif;
+    font-family: var(--league-font);
 
     & h1 {
         font-weight: bold;
@@ -59,12 +67,12 @@ nav {
     & p {
         font-weight: lighter;
         font-size: 2rem;
-        border: #0477BF 1px solid;
+        border: var(--second-color) 1px solid;
         padding: 10px;
     }
 
     & span {
-        color: #0477BF;
+        color: var(--second-color);
     }
 
     & #logo {
