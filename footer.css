@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #0168a8;
+    --second-color: #0477BF;
+    --roboto-font: "Roboto", sans-serif;
+    --league-font: "League Spartan", sans-serif;
+}
+
+#contato {
+    background-color: #292929;
+    width: 100vw;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 500px;
+    height: 60%;
+
+    & img {
+        width: 35px;
+        margin: 10px;
+    }
+
+    & a {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.footerImgDireitos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100vw;
+    height: 40%;
+
+    & .footerLogo {
+        position: absolute;
+        top: 330%;
+        width: 200px;
+        transform: translate(-0%, -0%);
+    }
+}

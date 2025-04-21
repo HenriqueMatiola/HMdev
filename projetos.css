@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #0168a8;
+    --second-color: #0477BF;
+    --roboto-font: "Roboto", sans-serif;
+    --league-font: "League Spartan", sans-serif;
+}
+
+#projetos {
+    background-color: #0477BF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projh3 {
+    width: 100%;
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+    & h3 {
+        border-bottom: 2px solid #fff;
+        font-family: var(--roboto-font);
+    }
+}
+
+.projCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    width: 100vw;
+    height: 618px;
+
+
+    & .cardEx {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #fff;
+        width: 350px;
+        height: 500px;
+        border-radius: 9px;
+
+        & div {
+            background-color: #000;
+            width: 325px;
+            height: 250px;
+            margin-top: 15px;
+        }
+
+        & p {
+            color: #000;
+            font-family: var(--roboto-font);
+            margin: 14px;
+            text-align: justify;
+        }
+    }
+}
